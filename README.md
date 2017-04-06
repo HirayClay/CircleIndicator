@@ -1,6 +1,6 @@
 # CircleIndicator<br>
 ====
-an viewpager indicator with cute dots that reponse to viewpager's scroll
+an viewpager indicator with cute dots that reponse to viewpager's scroll<br>
 ![image](https://github.com/HirayClay/CircleIndicator/raw/master/app/static/shot.gif)
 How?
 ===
