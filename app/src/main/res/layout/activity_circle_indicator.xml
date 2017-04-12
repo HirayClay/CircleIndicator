@@ -18,7 +18,7 @@
         android:layout_height="10dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        app:bubble_gravity="left"
+        app:bubble_gravity="center"
         app:color="#ff0"
         app:gap="10dp"
         app:mode="background"

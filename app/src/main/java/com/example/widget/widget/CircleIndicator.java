@@ -52,7 +52,7 @@ public class CircleIndicator extends View {
 
     public CircleIndicator(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
-        @SuppressLint("Recycle") TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.CircleIndicator);
+       TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.CircleIndicator);
         color = array.getColor(R.styleable.CircleIndicator_color, defaultColor);
         radius = array.getDimensionPixelSize(R.styleable.CircleIndicator_radius, 0);
         number = array.getInteger(R.styleable.CircleIndicator_number, 0);
@@ -116,7 +116,7 @@ public class CircleIndicator extends View {
                 centerX = radius;
                 break;
             case CENTER:
-                centerX = getMeasuredWidth() / 2 - (2 * radius * number + gap * (number - 1)) / 2;
+                centerX = getMeasuredWidth() / 2 - (2 * radius * number + gap * (number - 1)) / 2+radius;
                 break;
             case RIGHT:
                 centerX = radius + (getMeasuredWidth() - (2 * radius * number + gap * (number - 1)));
