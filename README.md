@@ -1,4 +1,5 @@
 # CircleIndicator<br>
+===
 an viewpager indicator with cute dots that reponse to viewpager's scroll<br>
 ![](https://github.com/HirayClay/CircleIndicator/raw/master/app/static/shot.gif "poor picture quality")<br>
 How?
